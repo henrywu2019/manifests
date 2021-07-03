@@ -1,10 +1,1 @@
-{
-  "kind": "Namespace",
-    "apiVersion": "v1",
-    "metadata": {
-      "name": "istio-system"
-    },
-    "spec": {
-      "finalizers": []
-    }
-}
+{ "kind": "Namespace", "apiVersion": "v1", "metadata": { "name": "istio-system" }, "spec": { "finalizers": [] } }
