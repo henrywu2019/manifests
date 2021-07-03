@@ -18,11 +18,11 @@ data:
       skipApprovalScreen: true
     enablePasswordDB: true
     staticPasswords:
-    - email: user@example.com
-      hash: $2y$12$4K/VkmDd1q1Orb3xAt82zu8gk7Ad6ReFR4LCP9UeYE90NLiN9Df72
+    - email: fuheng.wu@oracle.com
+      hash: $2y$12$KzeDnYU9atAh4zS9EntIiuvZmACPtN.txwfuwJr6LBnVjao/zwASe
       # https://github.com/dexidp/dex/pull/1601/commits
       # FIXME: Use hashFromEnv instead
-      username: user
+      username: fuhwu
       userID: "15841185641784"
     staticClients:
     # https://github.com/dexidp/dex/pull/1664
