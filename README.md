@@ -378,7 +378,7 @@ kubectl get pods -n auth
 kubectl get pods -n knative-eventing
 kubectl get pods -n knative-serving
 kubectl get pods -n kubeflow
-kubectl get pods -n kubeflow-user-example-com
+kubectl get pods -n oracle-ocas-vision
 ```
 
 #### Port-Forward

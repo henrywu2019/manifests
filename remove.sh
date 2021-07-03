@@ -8,5 +8,5 @@ kubectl delete namespace istio-system &
 kubectl delete namespace auth &
 kubectl delete namespace knative-serving &
 kubectl delete namespace kubeflow &
-kubectl delete namespace kubeflow-user-example-com &
+kubectl delete namespace oracle-ocas-vision &
 
