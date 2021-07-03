@@ -357,7 +357,7 @@ kustomize build apps/xgboost-job/upstream/overlays/kubeflow | kubectl apply -f -
 
 #### User Namespace
 
-Finally, create a new namespace for the the default user (named `kubeflow-user-example-com`).
+Finally, create a new namespace for the the default user (named `oracle-ocas-gamma`).
 
 ```sh
 kustomize build common/user-namespace/base | kubectl apply -f -
@@ -374,7 +374,7 @@ kubectl get pods -n auth
 kubectl get pods -n knative-eventing
 kubectl get pods -n knative-serving
 kubectl get pods -n kubeflow
-kubectl get pods -n kubeflow-user-example-com
+kubectl get pods -n oracle-ocas-gamma
 ```
 
 #### Port-Forward
